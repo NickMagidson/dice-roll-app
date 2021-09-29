@@ -14,10 +14,17 @@ function diceRoll() {
 
 
 // Event listeners for buttons
+const roll = document.querySelector('.roll');
+
+roll.addEventListener('click' , () => {
+    return console.log(diceRoll());
+})
+
+
 
 
 // Tests
-console.log(diceRoll());
-console.log(diceRoll());
-console.log(diceRoll());
-console.log(diceRoll());
+// console.log(diceRoll());
+// console.log(diceRoll());
+// console.log(diceRoll());
+// console.log(diceRoll());
