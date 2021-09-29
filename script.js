@@ -10,7 +10,7 @@ function diceRoll() {
 
 
 // Show results in center of #dice-container
-// let displayDiv = document.
+const displayDiv = document.getElementById('#dice-container');
 
 
 // Event listeners for buttons
@@ -20,6 +20,9 @@ roll.addEventListener('click' , () => {
     return console.log(diceRoll());
 })
 
+//roll.textContent = '';
+//roll.classList.add = '';
+//displayDiv.appendChild(roll);
 
 
 
