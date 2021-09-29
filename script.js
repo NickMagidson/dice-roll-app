@@ -10,8 +10,10 @@ function diceRoll() {
 
 
 // Show results in center of #dice-container
+// let displayDiv = document.
 
 
+// Event listeners for buttons
 
 
 // Tests
