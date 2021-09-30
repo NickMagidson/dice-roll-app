@@ -1,10 +1,17 @@
-// Start app with D20 
-
-
-
 // Generate random num between 1 and 20
-function diceRoll() {
-    return Math.floor(Math.random() * (20 - 1) + 1);
+let dice = {
+    sides: 20,
+    roll: function () {
+        let randomNumber = Math.floor(Math.random() * this.sides) + 1;
+        return randomNumber;
+    }
+}
+
+//Print the number
+function printNumber(number) {
+    var placeholder = document.getElementById('.dice-container');
+    placeholder.innerHTML = number;
+  }
 }
 
 
