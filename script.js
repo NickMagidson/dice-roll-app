@@ -13,13 +13,11 @@ function printNumber(number) {
     displayDiv.innerHTML = number;
   }
 
-// Roll Button
-const button = document.querySelector('.roll')
-
-
 
 
 //Button for roll
+const button = document.querySelector('.roll') // Button
+
 button.addEventListener('click' , () => {
     let result = dice.roll();
     return printNumber(result);
