@@ -9,23 +9,20 @@ let dice = {
 
 //Print the number
 function printNumber(number) {
-    var placeholder = document.getElementById('.dice-container');
-    placeholder.innerHTML = number;
+    let displayDiv = document.querySelector('#dice-container');
+    displayDiv.innerHTML = number;
   }
-}
+
+// Roll Button
+const button = document.querySelector('.roll')
 
 
 
-// Show results in center of #dice-container
-const displayDiv = document.getElementById('#dice-container');
-
-
-// Event listeners for buttons
-const roll = document.querySelector('.roll');
 
 //Button for roll
-roll.addEventListener('click' , () => {
-    return console.log(diceRoll());
+button.addEventListener('click' , () => {
+    let result = dice.roll();
+    return printNumber(result);
 })
 
 //Display on div block
@@ -35,10 +32,3 @@ roll.addEventListener('click' , () => {
 
 
 
-
-
-// Tests
-// console.log(diceRoll());
-// console.log(diceRoll());
-// console.log(diceRoll());
-// console.log(diceRoll());
