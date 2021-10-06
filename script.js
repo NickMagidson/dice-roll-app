@@ -22,10 +22,4 @@ button.addEventListener('click' , () => {
     return printNumber(result);
 })
 
-//Display on div block
-//roll.textContent = '';
-//roll.classList.add = '';
-//displayDiv.appendChild(roll);
-
-
 
