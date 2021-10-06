@@ -13,8 +13,7 @@ function printNumber(number) {
     displayDiv.innerHTML = number;
   }
 
-
-
+  
 //Button for roll
 const button = document.querySelector('.roll') // Button
 
