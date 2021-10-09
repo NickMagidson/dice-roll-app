@@ -22,4 +22,3 @@ button.addEventListener('click' , () => {
     return printNumber(result);
 })
 
-
